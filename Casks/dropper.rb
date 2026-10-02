@@ -1,7 +1,7 @@
 cask "dropper" do
   arch arm: "arm64", intel: "x64"
-  version "0.26.3"
-  sha256 arm: "0e0f2db04f2951f7a379d19b201ce4132cfbb891db45bf019080310c44665709", intel: "50bad754b452238d17f36e3f2a479c98554570fe89726e41ee60404102a9a766"
+  version "0.27.0"
+  sha256 arm: "398244fa5d05e088b53d34d8d7a18199da0582935c9252f4a702172598b469d1", intel: "68d2e053a80691a4a01a37c17db1054447f811769ac20f11d00e1ad1c8b07f4c"
   url "https://dropp.sh/cli/v#{version}/dropper-darwin-#{arch}.tar.gz"
   name "Dropper CLI"
   desc "Drop a static page, get a URL — CLI for dropp.sh"
